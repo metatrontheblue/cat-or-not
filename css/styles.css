@@ -1,3 +1,81 @@
+body{
+    font-family: 'Montserrat';
+}
+#title {
+    background-color: #9c3da8;
+    color: #fff;
+}
+
 .navbar {
-    padding: .5rem 1rem;
+    padding: 0 0 4.5rem 0;
+    font-weight: 100;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-weight: bold;
+
+}
+.nav-item {
+    margin: auto 20px;
+}
+
+.container-fluid{
+    padding:3% 15%;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(20deg);
+}
+
+h1 {
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    font-size: 3.5rem;
+    line-height: 5rem;
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+h3 {
+    margin: 1.5rem auto;
+    font-family: 'Montserrat';
+    line-height: 2rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+p {
+    line-height: 1.5rem;
+    margin: auto 20px;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+/* Features Section */
+#features {
+    background-color: #fff;
+    font-family: 'Montserrat';
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    padding-top: 1rem;
+}
+.feat-col {
+    padding: 3rem 0 3rem 0;    
+}
+.feat-col:hover span.featured-text{
+    color: #9c3da8;
+}
+.feat-col:hover .features-icon {
+    font-size: 4rem;
+    color: #000;
+}
+
+.features-icon {
+    font-size: 4rem;
+    color: #9c3da8;
 }
