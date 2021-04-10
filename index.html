@@ -5,8 +5,16 @@
   <meta charset="utf-8">
   <title>cat or not</title>
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
+  <!--google fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+  
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/425cd789f7.js" crossorigin="anonymous"></script>
+
+  <!--CSS Stylesheets-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 
 
@@ -16,37 +24,41 @@
 <body>
 
   <section id="title">
+    <div class="container-fluid">
 
-    <!-- Nav Bar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
+     <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
         <a class="navbar-brand" href="#">cat or not</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto me-2 mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Top Cats</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-          </ul>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-2 mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Top Cats</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+          </div>
+      </nav>
+
+
+     <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1>Meet new and interesting cats nearby.</h1>
+          <button type="button" class="btn btn-dark btn-outline-light btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
         </div>
+
+        <div class=col-lg-6>
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+
       </div>
-    </nav>
-
-
-    <!-- Title -->
-
-
-    <div>
-      <h1>Meet new and interesting cats nearby.</h1>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
     </div>
-    <div>
-      <img src="images/iphone6.png" alt="iphone-mockup">
-    </div>
-
   </section>
 
 
@@ -54,16 +66,39 @@
 
   <section id="features">
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even cats can use it. </p>
-    <em> -Buzzcut, Portland, OR</em>
+    <div class="features-section">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 feat-col">
+          
+          <i class="fas fa-check-circle features-icon"></i>
+            <span class="featured-text">
+            <h3>Easy to use.</h3>
+            <p>"So easy to use, even cats can use it."</p>
+            <em> -Buzzcut, Portland, OR</em>
+            </span>
+        </div>
 
-    <h3>Only Cat-related content</h3>
-    <p>There are a whole lot of cats on here, and not a whole lot else.</p>
+        <div class="col-lg-4 col-md-12 feat-col">
+          <i class="fas fa-bullseye features-icon"></i>
+          <span class="featured-text">
+          <h3>Only Cat-related content</h3>
+          <p>There are a whole lot of cats on here.</p>
+          <p>That's it.</p>
+          </span>
+        </div>
 
-    <h3>It's free. Come look at cats.</h3>
-    <p>The largest social media site with exclusively cat-related content. No chuds, no comments, just cats.</p>
+        <div class="col-lg-4 col-md-12 feat-col">
+          <i class="fas fa-cat features-icon"></i>
+          <span class="featured-text">
+          <h3>It's free. Come look at cats.</h3>
+          <p>The largest social media site</p> 
+          <p>for exclusively cat-related content.</p> 
+          <p>No chuds, no comments, just cats.</p>
+          </span>
+        </div>
 
+      </div>
+    </div>
   </section>
 
 
